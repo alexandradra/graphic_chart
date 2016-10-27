@@ -1,24 +1,44 @@
+@font-face {
+  font-family: 'pacifico';
+  src: url('../graphic_chart/fonts/Pacifico.ttf');
+}
+
 .button {
-  font-size: 1.2em;
-  font-family: sans-serif;
-  padding: 3px 7px 3px 7px;
-  border:1px solid #969696;
-  border-radius: 3px;
+  font-size: 1.3em;
+  font-family: pacifico, sans-serif;
+  color: white;
+  padding: 7px 30px;
+  margin: 0px 10px 10px 0px;
+  border-radius: 10px;
+  transition: all 0.9s;
 }
 
 .button_neutral {
   background-color: #cccccc;
+  border-bottom: 5px solid #969696;
+  text-shadow: 0px -2px #969696;
 }
 .button_neutral:hover {
-  box-shadow: inset 2px 2px #969696;
+  background-color: #969696;
+  border-bottom: 5px solid #636363;
 }
 
 .button_ok {
-  background-color: #9cff86;
+  background-color: #82BF56;
+	border-bottom: 5px solid #669644;
+  text-shadow: 0px -2px #669644;
 }
 .button_ok:hover {
-  box-shadow: inset 2px 2px #8dd07e;
+  background-color: #719f50;
+  border-bottom: 5px solid #57783f;
 }
 
-.button_cancel {}
-.button_cancel:hover {}
+.button_cancel {
+  background-color: #E74C3C;
+	border-bottom: 5px solid #BD3E31;
+  text-shadow: 0px -2px #BD3E31;
+}
+.button_cancel:hover {
+  background-color: #CC4335;
+  border-bottom: 5px solid #7c3029;
+}
